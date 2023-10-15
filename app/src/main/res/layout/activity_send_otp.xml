@@ -1,0 +1,174 @@
+<!-- res/layout/main_activity.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Heading -->
+
+    <!-- Circle Image Views -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Account Type"
+        android:textColor="@color/welcome_color"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center">
+
+        <!-- Image View 1 and Text View 1 -->
+
+        <!-- Image View 2 and Text View 2 -->
+
+        <LinearLayout
+            android:id="@+id/clientLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- Circle Image View 1 -->
+
+            <!-- Text View 1 -->
+            <ImageView
+                android:id="@+id/clientImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="Image 1"
+                android:contextClickable="true"
+                android:src="@drawable/menprofile" />
+
+            <TextView
+                android:id="@+id/clienTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="CLIENT"
+                android:textColor="@color/welcome_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/workerLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- Circle Image View 1 -->
+            <ImageView
+
+                android:id="@+id/workerImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="Image 1"
+                android:contextClickable="true"
+                android:src="@drawable/menprofile" />
+
+            <!-- Text View 1 -->
+            <TextView
+                android:id="@+id/workerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="WORKER"
+                android:textColor="@color/welcome_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTP verification"
+            android:textSize="20sp"
+            android:textColor="#FF000000"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="We will send you an one time OTP on this given mobile number"
+            android:textColor="@color/enter_phone_number_color"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="12dp">
+
+            <!-- Country Code EditText -->
+            <EditText
+                android:id="@+id/countryCodeEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border_highlight"
+                android:inputType="number"
+                android:padding="13dp"
+                android:text="+91" />
+
+            <!-- Phone Number EditText -->
+            <EditText
+                android:id="@+id/phoneNumberEdittext"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:background="@drawable/border_highlight"
+                android:hint="Enter Phone Number"
+                android:inputType="number"
+                android:padding="13dp" />
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sendOtpButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Send Otp"
+            android:textColor="@color/white"
+            android:background="@color/welcome_color" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

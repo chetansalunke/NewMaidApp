@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "194437756933",
+    "project_id": "maidapp-8cf8c",
+    "storage_bucket": "maidapp-8cf8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194437756933:android:53f8ecac59b835091a046c",
+        "android_client_info": {
+          "package_name": "com.example.maidapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdvxdhL1cQcjpnFwb7J76-s_yWf_0KGfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194437756933:android:e61bdea2648e24c81a046c",
+        "android_client_info": {
+          "package_name": "com.example.newmaidapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdvxdhL1cQcjpnFwb7J76-s_yWf_0KGfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
