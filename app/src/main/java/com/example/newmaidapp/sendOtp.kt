@@ -20,5 +20,6 @@ class sendOtp : AppCompatActivity() {
     private  fun init() {
         sendOtpbtn = findViewById(R.id.sendOtpButton)
         phoneNumberEdittext = findViewById(R.id.phoneNumberEdittext)
+        auth = FirebaseAuth.getInstance()
     }
 }
