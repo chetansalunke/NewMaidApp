@@ -183,7 +183,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
                 android:textSize="15sp"
-                android:id="@+id/sendotp_again"/>
+                android:id="@+id/resendOTP"/>
         </LinearLayout>
 
         <FrameLayout
@@ -193,7 +193,7 @@
             android:layout_marginRight="12dp"
             >
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/registerButton"
+                android:id="@+id/verifyButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -206,7 +206,7 @@
                 android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:visibility="gone"
-                android:id="@+id/probar2"/>
+                android:id="@+id/progressBar"/>
 
         </FrameLayout>
     </LinearLayout>
